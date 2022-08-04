@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    line-height: 2;
+}
+
+.profile-image{
+    border-radius: 100%;
+    width: 360px;
+    height: 360px;
+
+}
+
+.intro{
+    font-size: 16px;
+    line-height: 2;
+    font-family: cursive;
+    color: rgb(18, 7, 116);
+    font-family: 'exo';
+
+}
+
+.top-container{
+    margin-top:0px;
+    background-color: #d0deec;
+    padding-top:250px ;
+
+}
+
+.first-cloud{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: -100px;
+
+    
+}
+
+.second-cloud{
+    
+    position: absolute;
+    right: 80%;
+    bottom: 70%;
+    
+
+
+}
+
+hr{
+    border: none;
+    border-top: dotted ;
+    width: 30px;
+    margin: 100px auto;
+    
+}
+.computer-image{
+    border-radius: 100%;
+    width: 240px;
+    height: 240px;
+    float: left;
+
+}
+
+.cell-tower{
+    border-radius: 100%;
+    width: 240px;
+    height: 240px;
+    float: right;
+    
+}
+.skills{
+    
+    width: 50%;
+    margin-left: 25%;
+    font-family: 'Exo';
+}
+
+.middle-container{
+    margin-top: 55px;
+}
+h1{
+    font-family: 'sacramento';
+    font-size: 60px;
+}
+
+h2{
+    font-family: 'merienda';
+}
+
+.bottom-container{
+    line-height: 2;
+    margin-top: 8%;
+    /* margin-bottom: 6%; */
+    background-color: #b2f3ac;
+    padding-bottom: 10%;
+
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #185714;
+    font-weight: bold;
+}
+h3{
+    font-family: 'exo';
+
+}
+p{
+    font-family: 'exo';
+    font-weight: bold;
+}
+.btn {
+    box-shadow: 0px 10px 14px -7px #276873;
+    background-color: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+    background-color:#073546;
+    border-radius: 8px;
+    display:inline-block;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight:bold;
+    padding: 11px 16px;
+    text-decoration: none;
+    text-shadow:0px 1px 0px #3d768a;
+  }
+  
+  .btn:hover {
+    background-color: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    background-color: blueviolet;
+    color: #40514E;
+  }
+  
+  .copyright {
+    color: #fff;
+    font-size: 0.75rem;
+    padding: 20px 0;
+  }
